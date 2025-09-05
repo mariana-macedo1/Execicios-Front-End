@@ -59,6 +59,44 @@ button:hover {
     transform: scale(1.05);
     color: #ffffff;
     background-color: #78144b;
+}
 
 
+
+@media (max-width: 768px) {
+  body {
+    grid-template-columns: 1fr; 
+    margin: 20px;             
+    gap: 15px;
+  }
+
+  #info {
+    margin: 10px 15px;          
+    margin-left: 15;
+    padding: 8px;
+  }
+
+  #grid-item {
+    margin: 0px 15px 15px 15px;
+    margin-right: 15px;
+    width: 83%;              
+    font-size: 15px;          
+  }
+
+  img {
+    max-width: 100%;       
+    height: auto;
+  }
+
+  h1 {
+    font-size: 24px;        
+  }
+
+  button {
+    margin-left: 90px;
+    margin: 15px 7px;
+    width: 83%;              
+    padding: 10px;
+    font-size: 16px;
+  }
 }
